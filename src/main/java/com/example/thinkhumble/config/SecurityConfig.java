@@ -33,6 +33,7 @@ public class SecurityConfig {
 
         return http.build();
     }
+    
 
     @Bean
     public AuthenticationManager authManager(AuthenticationConfiguration config) throws Exception {
